@@ -44,6 +44,8 @@ Step 7: Access you nodejs application UI from browser
 
 #### To start the application
 
+To use docker-compose yaml be sure that your machine has right to access your container regisrty. In this example I used gitlab as container private repository.
+
 Step 1: start mongodb and mongo-express
 
     docker-compose -f docker-compose.yaml up
